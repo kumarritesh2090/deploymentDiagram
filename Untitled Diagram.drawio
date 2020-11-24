@@ -1,1 +1,162 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T11:49:00.837Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.10.1" etag="LHln4K0NaC-kH7LUuY-Q" type="github"><diagram id="pjNRP5ixxJ-6wNWDqDpu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-24T02:19:29.215Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="GCos-berRH1GAsSFs0_J" version="13.10.1" type="github">
+  <diagram id="pjNRP5ixxJ-6wNWDqDpu" name="Page-1">
+    <mxGraphModel dx="1773" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UOohhhlwfckat7_L4req-1" value="mobile client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-2" value="backend server A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-3" value="web" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-5" value="db server" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="260" y="505" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-6" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1.008;exitY=0.633;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UOohhhlwfckat7_L4req-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="340" as="sourcePoint" />
+            <mxPoint x="410" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-16" value="Websocket connection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UOohhhlwfckat7_L4req-6">
+          <mxGeometry x="-0.1791" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-7" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.2;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UOohhhlwfckat7_L4req-3" target="UOohhhlwfckat7_L4req-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="180" as="sourcePoint" />
+            <mxPoint x="420" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-8" value="need to store timestamps and read notification" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="190" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-9" value="" style="endArrow=none;html=1;entryX=0.125;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;" edge="1" parent="1" source="UOohhhlwfckat7_L4req-5" target="UOohhhlwfckat7_L4req-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="500" as="sourcePoint" />
+            <mxPoint x="390" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-11" value="login" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-12" value="login" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-13" value="1) message&lt;br&gt;2)message id&lt;br&gt;3)from&lt;br&gt;4)to&lt;br&gt;5)timestamp&lt;br&gt;6)read status&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;1)User metadata&lt;br&gt;2)status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="-5" width="100" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-14" value="Metrics:-&lt;br&gt;1)msg size 10KB&lt;br&gt;2)1M users&amp;nbsp; at a time&lt;br&gt;3)support 10K parallel active chats&lt;br&gt;in/out traffic-&amp;gt; 10KB*10*1M&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="80" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-15" value="1)highly availabe&lt;br&gt;2)reliable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="150" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-17" value="1)websocket&lt;br&gt;2)long polling&lt;br&gt;3)continuaous polling" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="385" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-18" value="userA send message for UserB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="330" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-19" value="Track of all open connections&lt;br&gt;11)save to db&lt;br&gt;1)find out the connection for userB&lt;br&gt;2)Send message to UserB&lt;br&gt;-&amp;gt;inactive-&amp;gt; save it somewhere&lt;br&gt;-&amp;gt;active-&amp;gt; directly send it to user B&lt;br&gt;Send 2 tick to user A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="630" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-20" value="&lt;span&gt;backend server B&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-21" value="LB" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-22" value="LB on Hash" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-23" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-25" value="cleaner server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-26" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="UOohhhlwfckat7_L4req-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="440" as="sourcePoint" />
+            <mxPoint x="770" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-27" value="" style="endArrow=none;html=1;entryX=-0.017;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UOohhhlwfckat7_L4req-2" target="UOohhhlwfckat7_L4req-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="490" as="sourcePoint" />
+            <mxPoint x="670" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-29" value="socket connection pool 10" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-31" value="backend server saves it in a cache(redis)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="470" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-32" value="redis saves data on disk&lt;br&gt;that we can create a stram to serve it to the actual db" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="365" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-33" value="processor server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-34" value="kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-35" value="" style="endArrow=none;html=1;entryX=0;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UOohhhlwfckat7_L4req-34" target="UOohhhlwfckat7_L4req-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="420" as="sourcePoint" />
+            <mxPoint x="360" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-36" value="" style="endArrow=none;html=1;entryX=0.308;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="UOohhhlwfckat7_L4req-33" target="UOohhhlwfckat7_L4req-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="530" as="sourcePoint" />
+            <mxPoint x="160" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-37" value="&lt;span&gt;processor server&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-38" value="" style="endArrow=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="UOohhhlwfckat7_L4req-37" target="UOohhhlwfckat7_L4req-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="660" as="sourcePoint" />
+            <mxPoint x="250" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-39" value="" style="endArrow=none;html=1;entryX=0.633;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.317;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UOohhhlwfckat7_L4req-29" target="UOohhhlwfckat7_L4req-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="500" as="sourcePoint" />
+            <mxPoint x="460" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-40" value="" style="endArrow=none;html=1;exitX=0.892;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UOohhhlwfckat7_L4req-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="430" as="sourcePoint" />
+            <mxPoint x="380" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-41" value="cold storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry y="445" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-42" value="" style="endArrow=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UOohhhlwfckat7_L4req-41" target="UOohhhlwfckat7_L4req-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="490" as="sourcePoint" />
+            <mxPoint x="130" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOohhhlwfckat7_L4req-43" value="metadata&amp;nbsp;" style="endArrow=none;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=27.5;exitPerimeter=0;" edge="1" parent="1" source="UOohhhlwfckat7_L4req-5" target="UOohhhlwfckat7_L4req-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="530" as="sourcePoint" />
+            <mxPoint x="250" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
