@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-05T08:20:21.582Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="wauFRMcEeEjDu3gHTgIZ" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-05T08:21:06.021Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="D5IWhSymVbzPTOxPEkTU" version="13.10.1" type="github">
   <diagram id="vxQixb4KriTUS4klpGVv" name="Page-1">
     <mxGraphModel dx="1351" dy="2092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -319,7 +319,7 @@
             <mxPoint x="2.39" y="51.44" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OwmVWiMVx3jSp2_19I__-82" value="We can think about different ways to trigger the campaign&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="OwmVWiMVx3jSp2_19I__-82" value="We can think about different ways to trigger the campaign&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1210" y="260" width="320" height="20" as="geometry" />
         </mxCell>
       </root>
